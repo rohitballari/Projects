@@ -1,1 +1,60 @@
+# Danny's Diner - SQL Case Study
 
+![Danny's Diner](https://8weeksqlchallenge.com/images/case-study-designs/1.png)
+
+## Overview
+This repository contains my solutions to the **Danny's Diner** case study from the [8 Week SQL Challenge](https://8weeksqlchallenge.com/). The case study explores customer behavior analysis for a small restaurant using SQL queries.
+
+## Database Schema
+Danny's Diner has three key tables:
+
+### `sales`
+- Records all customer transactions
+- Columns: `customer_id`, `order_date`, `product_id`
+
+### `menu`
+- Contains the restaurant's menu items and pricing
+- Columns: `product_id`, `product_name`, `price`
+
+### `members`
+- Tracks customers in the loyalty program
+- Columns: `customer_id`, `join_date`
+
+## Case Study Questions
+The analysis answers 10 key business questions:
+
+1. Total spending per customer
+2. Customer visit frequency
+3. First purchases by customers
+4. Most popular menu items
+5. Customer-specific favorites
+6. Post-membership purchases
+7. Pre-membership purchases
+8. Pre-membership spending
+9. Customer loyalty points
+10. Membership bonus points
+
+## Bonus Analysis
+Additional insights include:
+- Unique customer count
+- Total sales volume
+- Product popularity metrics
+- Order date patterns
+- Member acquisition trends
+
+## Technical Approach
+- MySQL database implementation
+- Advanced SQL techniques:
+  - Window functions (RANK, ROW_NUMBER)
+  - Common Table Expressions (CTEs)
+  - Complex JOIN operations
+  - Conditional aggregation (CASE statements)
+  - Date calculations
+
+## How to Use
+1. Clone the repository
+2. Execute the SQL script to create the database
+3. Run individual queries to explore specific analyses
+
+## Acknowledgments
+Case study provided by [8 Week SQL Challenge](https://8weeksqlchallenge.com/)
